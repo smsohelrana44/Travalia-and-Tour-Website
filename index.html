@@ -26,9 +26,8 @@
     <!-- Custom CSS Link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Preload images -->
-   <link rel="preload" as="" href="./assets/images/hero-banner.png">
-   <link rel="preload" as="" href="./assets/images/preloader.svg">
-
+    <link rel="preload" as="" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="" href="./assets/images/preloader.svg" />
   </head>
   <body>
     <!-- #PRELOADER -->
@@ -108,7 +107,8 @@
         <section
           class="section hero has-bg-image"
           aria-label="hero"
-          style="background-image: url('./assets/images/hero-bg.jpg')">
+          style="background-image: url('./assets/images/hero-bg.jpg')"
+        >
           <div class="container">
             <div class="hero-content">
               <p class="hero-subtitle">
@@ -127,26 +127,321 @@
               <p class="hero-text">
                 We always make our customer happy by providing as many choices
                 as possible
-                
               </p>
               <div class="wrapper">
                 <a href="#" class="btn btn-secondary">
                   <span class="span">Plan a Trip</span>
-                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                  <ion-icon
+                    name="chevron-forward"
+                    aria-hidden="true"
+                  ></ion-icon>
                 </a>
 
                 <button class="hero-btn">
-                  <div class="btn-image">
-                    <img src="./assets/images/hero-button-img.jpg" width="100" height="100" alt="our story" class="img-cover">
+                  <div class="btn-img">
+                    <img
+                      src="./assets/images/hero-button-img.jpg"
+                      width="100"
+                      height="100"
+                      alt="our story"
+                      class="img-cover"
+                    />
                     <ion-icon name="play" aria-hidden="true"></ion-icon>
                   </div>
                   <p class="text">Watch our Story</p>
                 </button>
-                
               </div>
             </div>
             <figure class="hero-banner">
-              <img src="./assets/images/hero-banner.png" width="631" height="735" alt="hero banner" class="w-100">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="631"
+                height="735"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+        <!-- 
+          #SERVICE
+         -->
+        <section class="section service" aria-label="service">
+          <div class="container">
+            <div class="title-wrapper">
+              <p class="section-subtitle">What We Serve</p>
+              <h2 class="h2 title section-title">Top Values For You</h2>
+              <p class="section-text">
+                Try a variety of benefits when using our services.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="card-icon">
+                <img
+                  src="./assets/images/service-icon-1.svg"
+                  width="60"
+                  height="60"
+                  loading="lazy"
+                  alt="icon"
+                />
+              </div>
+              <h3 class="h3 title card-title">Lot Of Choices</h3>
+              <p class="card-text">
+                Total 460+ destinations that we work with.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="card-icon">
+                <img
+                  src="./assets/images/service-icon-2.svg"
+                  width="60"
+                  height="60"
+                  loading="lazy"
+                  alt="icon"
+                />
+              </div>
+              <h3 class="h3 title card-title">Best Tour Guide</h3>
+              <p class="card-text">
+                Our tour guide with 15+ years of experience.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="card-icon">
+                <img
+                  src="./assets/images/service-icon-3.svg"
+                  width="60"
+                  height="60"
+                  loading="lazy"
+                  alt="icon"
+                />
+              </div>
+              <h3 class="h3 title card-title">Easy Booking</h3>
+              <p class="card-text">
+                With an easy and fast ticket purchase process.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- 
+          DESTINATION
+          -->
+        <section class="section desti" aria-label="destination">
+          <div class="container">
+            <p class="section-subtitle">Top destination</p>
+            <h2 class="h2 title section-title">Explore Top Destination</h2>
+            <ul class="desti-list">
+              <li>
+                <div class="desti-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 650"
+                  >
+                    <img
+                      src="./assets/images/destination-1.jpg"
+                      width="600"
+                      height="650"
+                      loading="lazy"
+                      alt="Enjoy the Beauty of the del Pincio"
+                      class="img-cover"
+                    />
+                    <span class="card-price">$340</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">
+                        Enjoy the Beauty of the del Pincio
+                      </a>
+                    </h3>
+                    <address class="card-text">Rome, Italy</address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                        4.7
+                      </span>
+                      <p class="rating-text">(11.1k Review)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="desti-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 650"
+                  >
+                    <img
+                      src="./assets/images/destination-2.jpg"
+                      width="600"
+                      height="650"
+                      loading="lazy"
+                      alt="Enjoy the Beauty of the Pakistan Monument"
+                      class="img-cover"
+                    />
+                    <span class="card-price">$340</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">
+                        Enjoy the Beauty of the Pakistan Monument
+                      </a>
+                    </h3>
+                    <address class="card-text">Islamabad, Pakistan</address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                        4.6
+                      </span>
+                      <p class="rating-text">(16.9k Review)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="desti-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 650"
+                  >
+                    <img
+                      src="./assets/images/destination-3.jpg"
+                      width="600"
+                      height="650"
+                      loading="lazy"
+                      alt="Enjoy the Beauty of the Burj Khalifa"
+                      class="img-cover"
+                    />
+                    <span class="card-price">$340</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">
+                        Enjoy the Beauty of the Burj Khalifa
+                      </a>
+                    </h3>
+                    <address class="card-text">Skyscraper in Dubai</address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                        4.7
+                      </span>
+                      <p class="rating-text">(70 Review)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="desti-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 650"
+                  >
+                    <img
+                      src="./assets/images/destination-4.jpg"
+                      width="600"
+                      height="650"
+                      loading="lazy"
+                      alt="Enjoy the Beauty of the Ko Tao"
+                      class="img-cover"
+                    />
+                    <span class="card-price">$340</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">
+                        Enjoy the Beauty of the Ko Tao
+                      </a>
+                    </h3>
+                    <address class="card-text">
+                      Island in the Gulf of Thailand
+                    </address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                        4.5
+                      </span>
+                      <p class="rating-text">(985 Review)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="desti-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 650"
+                  >
+                    <img
+                      src="./assets/images/destination-5.jpg"
+                      width="600"
+                      height="650"
+                      loading="lazy"
+                      alt="Enjoy the Beauty of the Grand Mecidiye Mosque
+                     "
+                      class="img-cover"
+                    />
+                    <span class="card-price">$340</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">
+                        Enjoy the Beauty of the Grand Mecidiye Mosque
+                      </a>
+                    </h3>
+                    <address class="card-text">
+                      Mosque in Istanbul, Türkiye
+                    </address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                        4.8
+                      </span>
+                      <p class="rating-text">(29.6k Review)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary">View All Destination</a>
+          </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+
+        <section class="section-exp" aria-label="experience">
+          <div class="container">
+            <div class="exp-content">
+              <p class="section-subtitle">Our Experience</p>
+              <h2 class="h2 title section-title">
+                With Our Experience We Will Serve You
+              </h2>
+              <p class="section-text">
+                Since we first opened we have always prioritized the convenience
+                of our users by providing low prices and with a easy process.
+              </p>
+              <ul class="exp-list">
+                <li class="exp-item">
+                  <h3 class="h3 title item-title">20</h3>
+                  <p class="item-text">Years <br> Experience</p>
+                </li>
+                <li class="exp-item">
+                  <h3 class="h3 title item-title">460+</h3>
+                  <p class="item-text">Destination <br>
+                    Collaboration</p>
+                </li>
+                <li class="exp-item">
+                  <h3 class="h3 title item-title">50K+</h3>
+                  <p class="item-text">Happy <br>
+                    Customer</p>
+                </li>
+              </ul>
+            </div>
+            <figure class="exp-banner">
+              <img src="./assets/images/experience-banner.png" width="550" height="660" loading="lazy" alt="experience banner" class="w-100">
             </figure>
           </div>
         </section>
